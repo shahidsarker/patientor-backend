@@ -2,8 +2,7 @@ import diagnoses from "../../data/diagnoses";
 
 import { Diagnosis } from "../types";
 
-const getDiagnoses = (): Array<Diagnosis> => {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+const getDiagnoses = (): Diagnosis[] => {
   return diagnoses;
 };
 
